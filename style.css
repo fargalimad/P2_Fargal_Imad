@@ -1,0 +1,826 @@
+
+.titre_blocpopulaires{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lienMenu {
+                                                                                                                                                                                                        text-decoration: none;
+                                                                                                                                                                                                        /*color:green;*/
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    html, body {
+                                                                                                                                                                                                        font-family: Raleway;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .flexCentre {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        justify-content: center;
+                                                                                                                                                                                                        align-items: center;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .flexAround {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        justify-content: space-around;
+                                                                                                                                                                                                        align-items: center;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .flexBetween {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        justify-content: space-between;
+                                                                                                                                                                                                        align-items: center;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .decorationNone {
+                                                                                                                                                                                                        text-decoration: none;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .bordureNone {
+                                                                                                                                                                                                        border: none;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .texteGras {
+                                                                                                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                        
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                .texteh2
+                                                                                                                                                                                                {margin-left: 50px;}
+                                                                                                                                                                                                .text5
+                                                                                                                                                                                                {margin-left:20px ;}
+                                                                                                                                                                                                 .text4{
+                                                                                                                                                                                                     margin-right: 40;
+                                                                                                                                                                                                 }
+
+                                                                                                                                                                                                    .colorbleu {
+                                                                                                                                                                                                        color: #0065fc;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .colorBleuClair {
+                                                                                                                                                                                                        color: #deebff;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .colorGris {
+                                                                                                                                                                                                        color: grey
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .backBleu {
+                                                                                                                                                                                                        background-color: #0065fc;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .backBleuClair {
+                                                                                                                                                                                                        background-color: #deebff;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .backGris {
+                                                                                                                                                                                                        color: grey
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*NAV*/
+
+                                                                                                                                                                                                    .sizeNav {
+                                                                                                                                                                                                        height: 100px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .sizeLiens {
+                                                                                                                                                                                                        width: 45%;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .sizeLien {
+                                                                                                                                                                                                        width: 140px;
+                                                                                                                                                                                                        height: 99px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .colorLien13 {
+                                                                                                                                                                                                        color: blue;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .colorLien2 {
+                                                                                                                                                                                                        color: black;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .bordureNav {
+                                                                                                                                                                                                        border-top: 1px solid blue;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .bordureNav23 {
+                                                                                                                                                                                                        border-top: 1px solid blue transparent;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .marglogo {
+                                                                                                                                                                                                        margin-bottom: 7px;
+                                                                                                                                                                                                        margin-left: 50px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*HEDARE*/
+
+                                                                                                                                                                                                    .bordureSearch {
+                                                                                                                                                                                                        width: 400px;
+                                                                                                                                                                                                        border-radius: 10px;
+                                                                                                                                                                                                        border: 0.5px solid #f2f2f2;
+                                                                                                                                                                                                        margin-left: 50px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .paddingSearch {
+                                                                                                                                                                                                        padding-left: 20px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .rechercher {
+                                                                                                                                                                                                        height: 50px;
+                                                                                                                                                                                                        width: 230px;
+                                                                                                                                                                                                        font-size: 18px;
+                                                                                                                                                                                                        color: black;
+                                                                                                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .iconSize {
+                                                                                                                                                                                                        height: 50px;
+                                                                                                                                                                                                        width: 50px;
+                                                                                                                                                                                                        border-radius: 10px 0 0 10px;
+                                                                                                                                                                                                        /* 0 0 10px;*/
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .buttonSearch {
+                                                                                                                                                                                                        height: 50px;
+                                                                                                                                                                                                        width: 170px;
+                                                                                                                                                                                                        color: white;
+                                                                                                                                                                                                        cursor: pointer;
+                                                                                                                                                                                                        border-radius: 0 10px 10px 0;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*filters*/
+
+                                                                                                                                                                                                    .margFiltre {
+                                                                                                                                                                                                        margin-top: 50px;
+                                                                                                                                                                                                        margin-bottom: 40px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .filtre {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        align-items: center;
+                                                                                                                                                                                                        margin-left: 50px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .margFiltreTitre {
+                                                                                                                                                                                                        margin-right: 20px;
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    
+
+                                                                                                                                                                                                    .filtreTexteIcons {
+                                                                                                                                                                                                        border: 2px solid #f2f2f2;
+                                                                                                                                                                                                        height: 50px;
+                                                                                                                                                                                                        border-radius: 30px;
+                                                                                                                                                                                                        margin-right: 20px;
+                                                                                                                                                                                                        size: 20px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .filtreTexteIcons:hover>.filtreIcons {
+                                                                                                                                                                                                        color: #0065fc;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .filtreTexte {
+                                                                                                                                                                                                        color: #0065fc;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .filtreTexteIcons:hover>.filtreIcons {
+                                                                                                                                                                                                        color: white;
+                                                                                                                                                                                                        background-color: #0065fc;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .filtreTexte {
+                                                                                                                                                                                                        height: 50px;
+                                                                                                                                                                                                        padding-left: 20px;
+                                                                                                                                                                                                        padding-right: 20px;
+                                                                                                                                                                                                        border-radius: 0 25px 25px 0;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .filtreIcons {
+                                                                                                                                                                                                        margin-left: -2px;
+                                                                                                                                                                                                        border-radius: 25px;
+                                                                                                                                                                                                        width: 52px;
+                                                                                                                                                                                                        height: 52px;
+                                                                                                                                                                                                        color: #0065fc;
+                                                                                                                                                                                                        background-color: #deebff;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*Info*/
+
+                                                                                                                                                                                                    .info {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        align-items: center;
+                                                                                                                                                                                                        margin-left: 50px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .iconinfo {
+                                                                                                                                                                                                        width: 20px;
+                                                                                                                                                                                                        height: 20px;
+                                                                                                                                                                                                        border: 2px solid #f2f2f2;
+                                                                                                                                                                                                        border-radius: 25px;
+                                                                                                                                                                                                        margin-right: 5px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*hebargement*/
+
+                                                                                                                                                                                                    #hebergement {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: row;
+                                                                                                                                                                                                        flex-wrap: wrap;
+                                                                                                                                                                                                        justify-content: space-around;
+                                                                                                                                                                                                        margin-bottom: 56px;
+                                                                                                                                                                                                        margin-left: 25px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .titre_hebergements_a_marseille {
+                                                                                                                                                                                                        margin: 0px;
+                                                                                                                                                                                                        font-size: large;
+                                                                                                                                                                                                        margin-bottom: 21px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    #hebergements_a_marseille {
+                                                                                                                                                                                                        background-color: #F2F2F2;
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                        justify-content: space-between;
+                                                                                                                                                                                                        align-content: space-between;
+                                                                                                                                                                                                        border-radius: 20px;
+                                                                                                                                                                                                        padding: 44px 36px 44px 36px;
+                                                                                                                                                                                                        max-width: 805px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .container_item {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: row;
+                                                                                                                                                                                                        flex-wrap: wrap;
+                                                                                                                                                                                                        justify-content: space-between;
+                                                                                                                                                                                                        align-content: space-between;
+                                                                                                                                                                                                        margin-bottom: 60px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .box_carte {
+                                                                                                                                                                                                        border: 3px solid white;
+                                                                                                                                                                                                        border-radius: 20px;
+                                                                                                                                                                                                        padding: 5px 5px 10px 5px;
+                                                                                                                                                                                                        background-color: white;
+                                                                                                                                                                                                        max-width: 236px;
+                                                                                                                                                                                                        margin-bottom: 28px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .hebergement_image {
+                                                                                                                                                                                                        padding-left: 5px;
+                                                                                                                                                                                                        padding-right: 5px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .photo_hebergement {
+                                                                                                                                                                                                        object-fit: cover;
+                                                                                                                                                                                                        width: 236px;
+                                                                                                                                                                                                        height: 112px;
+                                                                                                                                                                                                        border-top-left-radius: 10px;
+                                                                                                                                                                                                        border-top-right-radius: 10px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .hebergement_contenu {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                        justify-content: space-around;
+                                                                                                                                                                                                        padding-left: 16px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .titre_contenu {
+                                                                                                                                                                                                        padding-top: 11px;
+                                                                                                                                                                                                        padding-bottom: 11px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .prix_contenu {
+                                                                                                                                                                                                        padding-bottom: 11px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .hebergement_notation {
+                                                                                                                                                                                                        padding-bottom: 11px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .hebergement_contenu h3, .hebergement_populaire_contenu h3 {
+                                                                                                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                        font-style: normal;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .hebergement_montrer_plus {
+                                                                                                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .fas.fa-star.grey-star {
+                                                                                                                                                                                                        color: grey;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*Les plus populaires*/
+
+                                                                                                                                                                                                    .titre_popularite {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: row;
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .titre_les_plus_populaires {
+                                                                                                                                                                                                        font-size: large;
+                                                                                                                                                                                                        margin-bottom: 25px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .fa-chart-line {
+                                                                                                                                                                                                        color: black;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    #container_hebergements_populaires {
+                                                                                                                                                                                                        background-color: #f2f2f2;
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                        border-radius: 20px;
+                                                                                                                                                                                                        padding: 45px 38px 31px 45px;
+                                                                                                                                                                                                        max-width: 345px;
+                                                                                                                                                                                                        margin-right: 40;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .hebergement_les_plus_populaires {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                        justify-content: flex-start;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .box_populaire_carte {
+                                                                                                                                                                                                        border: 3px solid white;
+                                                                                                                                                                                                        border-radius: 30px;
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        background-color: white;
+                                                                                                                                                                                                        padding: 9px 58px 9px 9px;
+                                                                                                                                                                                                        max-width: 400px;
+                                                                                                                                                                                                        max-height: 200px;
+                                                                                                                                                                                                        margin-bottom: 40px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .photo_populaire {
+                                                                                                                                                                                                        width: 132px;
+                                                                                                                                                                                                        height: 132px;
+                                                                                                                                                                                                        object-fit: cover;
+                                                                                                                                                                                                        border-top-left-radius: 10px;
+                                                                                                                                                                                                        border-bottom-left-radius: 10px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .hebergement_populaire_contenu {
+                                                                                                                                                                                                        padding-left: 7px;
+                                                                                                                                                                                                        /*padding: 7px 0px 7px 20px*/
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .titre_populaire_contenu {
+                                                                                                                                                                                                        padding-bottom: 8px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .prix_populaire_contenu {
+                                                                                                                                                                                                        padding-bottom: 10px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .hebergement_notation_populaire {
+                                                                                                                                                                                                        max-width: 94px;
+                                                                                                                                                                                                        max-height: 15px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*Activités à Marseille*/
+
+                                                                                                                                                                                                    #Activités_à_Marseille {
+                                                                                                                                                                                                        background-color: white;
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                        flex-wrap: wrap;
+                                                                                                                                                                                                        margin-bottom: 60px;
+                                                                                                                                                                                                        max-width: 1350px;
+                                                                                                                                                                                                        margin-left: 50px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .titre_activites {
+                                                                                                                                                                                                        margin-bottom: 27px;
+                                                                                                                                                                                                        font-size: large;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .activites {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: row;
+                                                                                                                                                                                                        flex-wrap: wrap;
+                                                                                                                                                                                                        justify-content: space-between;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .activite2et3, .activite5et6 {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .activite1, .activite2, .activite3, .activite4, .activite5, .activite6 {
+                                                                                                                                                                                                        box-shadow: 0 0 20px #0000002e;
+                                                                                                                                                                                                        padding: 0px 0px 20px 0px;
+                                                                                                                                                                                                        border-radius: 20px;
+                                                                                                                                                                                                        margin: 0px 0px 20px 0px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .photo_activite1, .photo_activite2, .photo_activite3, .photo_activite4, .photo_activite5, .photo_activite6 {
+                                                                                                                                                                                                        background-size: 100% 100%;
+                                                                                                                                                                                                        border-top-left-radius: 10px;
+                                                                                                                                                                                                        border-top-right-radius: 10px;
+                                                                                                                                                                                                        padding: 0px 0px 22px 0px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .photo_activite11, .photo_activite22, .photo_activite33, .photo_activite44, .photo_activite55, .photo_activite66 {
+                                                                                                                                                                                                        object-fit: cover;
+                                                                                                                                                                                                        border-top-left-radius: 10px;
+                                                                                                                                                                                                        border-top-right-radius: 10px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    #Activités_à_Marseille h1 {
+                                                                                                                                                                                                        font-size: large;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    #Activités_à_Marseille h2 {
+                                                                                                                                                                                                        font-size: medium;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*Footer*/
+
+                                                                                                                                                                                                    footer {
+                                                                                                                                                                                                        max-width:1350px;
+                                                                                                                                                                                                        padding: 70px 10px 10px 100PX;
+                                                                                                                                                                                                        background-color: #F2F2F2;
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-wrap: wrap;
+                                                                                                                                                                                                        justify-content: space-between;
+                                                                                                                                                                                                        flex-direction: row;
+                                                                                                                                                                                                        align-items: center;
+                                                                                                                                                                                                        margin-right: 0.0px;
+                                                                                                                                                                                                        margin-left: 0.5px;
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .titre_apropos {
+                                                                                                                                                                                                        padding-bottom: 22px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .a_propos {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .titre_noshebergements {
+                                                                                                                                                                                                        margin-bottom: 22px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .nos_hebergements {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .titre_assistance {
+                                                                                                                                                                                                        padding-bottom: 22px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .assistance {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    footer h4 {
+                                                                                                                                                                                                        font-weight: normal;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    footer h2 {
+                                                                                                                                                                                                        font-size: large;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    /*Responsive*/
+
+                                                                                                                                                                                                    @media all and (min-width: 1300px) and (max-width: 2560px) {
+                                                                                                                                                                                                        .photo_activite11, .photo_activite44 {
+                                                                                                                                                                                                            width: 301px;
+                                                                                                                                                                                                            height: 390px;
+                                                                                                                                                                                                            
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .photo_activite22 {
+                                                                                                                                                                                                            width: 304px;
+                                                                                                                                                                                                            height: 183px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .photo_activite33 {
+                                                                                                                                                                                                            width: 304px;
+                                                                                                                                                                                                            height: 112px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .photo_activite55 {
+                                                                                                                                                                                                            width: 304px;
+                                                                                                                                                                                                            height: 141px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .photo_activite66 {
+                                                                                                                                                                                                            width: 304px;
+                                                                                                                                                                                                            height: 155px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    @media all
+                                                                                                                                                                                                    /*and (max-width: 1360px)*/
+
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                         .sizeNav  {
+                                                                                                                                                                                                            margin-right:25px
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    .info
+                                                                                                                                                                                                    {Margin-right:55px}
+                                                                                                                                                                                                    .texteGras {
+                                                                                                                                                                                                        margin-right:55px ;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    @media all and (max-width: 1300px) {
+                                                                                                                                                                                                        #hebergements_a_marseille {
+                                                                                                                                                                                                            margin-bottom: 50px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .hebergement_les_plus_populaires {
+                                                                                                                                                                                                            flex-direction: row;
+                                                                                                                                                                                                            flex-wrap: wrap;
+                                                                                                                                                                                                            justify-content: space-between;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        #container_hebergements_populaires {
+                                                                                                                                                                                                            max-width: 805px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .photo_activite11 {
+                                                                                                                                                                                                            width: 301px;
+                                                                                                                                                                                                            height: 390px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .photo_activite44 {
+                                                                                                                                                                                                            width: 304px;
+                                                                                                                                                                                                            height: 391px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        #Activités_à_Marseille  {
+                                                                                                                                                                                                            margin-left: 45px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    @media all and (max-width: 1300px) {
+                                                                                                                                                                                                        .photo_activite11, .photo_activite22, .photo_activite33, .photo_activite44, .photo_activite55, .photo_activite66 {
+                                                                                                                                                                                                            width: 309px;
+                                                                                                                                                                                                            height: 112px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .activite1, .activite2, .activite3, .activite4, .activite5, .activite6 {
+                                                                                                                                                                                                            width: 309px;
+                                                                                                                                                                                                            height: 182px;
+                                                                                                                                                                                                            margin-right: 20px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .activite2et3, .activite5et6 {
+                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                            flex-direction: row;
+                                                                                                                                                                                                            align-items: flex-start;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        .activites {
+                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                            justify-content: flex-start;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        @media all and (max-width: 1006px) {
+                                                                                                                                                                                                            .a_propos {
+                                                                                                                                                                                                                margin-bottom: 20px;
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                            .nos_hebergements {
+                                                                                                                                                                                                                margin-bottom: 20px;
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                            @media all and (max-width: 768px) {
+                                                                                                                                                                                                                .flexBetween .filtreTexteIcons {
+                                                                                                                                                                                                                    margin-bottom: 5px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .hebergement_populaire_contenu {
+                                                                                                                                                                                                                    width: 145px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #Activités_à_Marseille {
+                                                                                                                                                                                                                    margin-left: 50px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                            @media all and (max-width: 665px) {
+                                                                                                                                                                                                                .activite2et3, .activite5et6 {
+                                                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                      
+                                                                                                                                                                                                                #Activités_à_Marseille {
+                                                                                                                                                                                                                    margin-left: 0px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .box_populaire_carte {
+                                                                                                                                                                                                                    max-width: 270px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .box_carte, .activite1, .activite2, .activite3, .activite4, .activite5, .activite6 {
+                                                                                                                                                                                                                    box-shadow: 0 0 20px #0000002e;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .titre_trouvez, .titre_enplein, .search-bar {
+                                                                                                                                                                                                                    margin-left: 30px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #hebergements_a_marseille:nth-child(1) {
+                                                                                                                                                                                                                    order: 2;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #container_hebergements_populaires:nth-child(2) {
+                                                                                                                                                                                                                    order: 1;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #hebergements_a_marseille {
+                                                                                                                                                                                                                    background-color: #FFFFFF;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #container_hebergements_populaires {
+                                                                                                                                                                                                                    border-radius: 0px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .flexBetween .filtreTexteIcons {
+                                                                                                                                                                                                                    margin-bottom: 5px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .flexBetween .filtreTexteIcons {
+                                                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .margFiltreTitre{
+                                                                                                                                                                                                                    align-self: flex-start;
+                                                                                                                                                                                                                    margin: 0px 0px 20px 30px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #container_hebergements_populaires {
+                                                                                                                                                                                                                    margin-bottom: 20px;
+                                                                                                                                                                                                                    padding-left: 44px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .box_carte {
+                                                                                                                                                                                                                    max-width: 354px;
+                                                                                                                                                                                                                    margin-left: 10px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .hebergement_montrer_plus {
+                                                                                                                                                                                                                    margin-left: 20px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .photo_hebergement {
+                                                                                                                                                                                                                    width: 320px;
+                                                                                                                                                                                                                    margin-left: 2px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activite1, .activite2, .activite3, .activite4, .activite5, .activite6 {
+                                                                                                                                                                                                                    width: 340px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activites {
+                                                                                                                                                                                                                    padding-left: 15px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .photo_activite11, .photo_activite22, .photo_activite33, .photo_activite44, .photo_activite55, .photo_activite66 {
+                                                                                                                                                                                                                    width: 330px;
+                                                                                                                                                                                                                    margin-left: 5px;
+                                                                                                                                                                                                                    margin-top: 5px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activites {
+                                                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                                                    align-items: center;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                 .sizeLien {
+                                                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                                                    flex-direction: row;
+                                                                                                                                                                                                                    width: 425px;
+                                                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .hebergementancre {
+                                                                                                                                                                                                                    width: 212px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .marglogo {
+                                                                                                                                                                                                                    align-self: flex-start;
+                                                                                                                                                                                                                    margin-left: 10px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                header.sizeNav  {
+                                                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                                                    position: relative;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .sinscrire, .sizeLien,  .flexCentre, .bordureNav23,{
+                                                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                                                    bottom: 50%;
+                                                                                                                                                                                                                    right: -6%;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activite1, .activite2, .activite3, .activite4, .activite5, .activite6 {
+                                                                                                                                                                                                                    border-color: white;
+                                                                                                                                                                                                                    max-width: 375px;
+                                                                                                                                                                                                                    margin-left: 10px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activite2et3, .activite5et6 {
+                                                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activites {
+                                                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .titre_activites {
+                                                                                                                                                                                                                    margin-left: 60px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .marglogo {
+                                                                                                                                                                                                                    margin-left: 20px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .container_item {
+                                                                                                                                                                                                                    margin-bottom: 0px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #hebergement {
+                                                                                                                                                                                                                    margin-bottom: 0px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activite6 {
+                                                                                                                                                                                                                    margin-bottom: 0px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .titre_hebergements_a_marseille {
+                                                                                                                                                                                                                    margin-left: 20px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .titre_activite1, .titre_activite2, .titre_activite3, .titre_activite4, .titre_activite5, .titre_activite6 {
+                                                                                                                                                                                                                    margin-left: 15px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                             
+                                                                                                                                                                                                                .sizeLiens {border-bottom: 3px solid #F2F2F2;
+                                                                                                                                                                                                                    padding-bottom: 10px;}
+                                                                                                                                                                                                                .flexAround{border-bottom: 3px solid #F2F2F2;
+                                                                                                                                                                                                                    padding-bottom: 10px;}
+                                                                                                                                                                                                                    .sizeLiens{border-bottom: 3px solid #0065FC;
+                                                                                                                                                                                                                        color: #0065FC;}
+                                                                                                                                                                                                                        .flexAround{border-bottom: 3px solid #0065FC;
+                                                                                                                                                                                                                            color: #0065FC;}
+
+
+                                                                                                                                                                                                                .hebergements-activites a:hover {
+                                                                                                                                                                                                                    border-top: none;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                            @media all and (max-width: 375px) {
+                                                                                                                                                                                                                #Activités_à_Marseille {
+                                                                                                                                                                                                                    margin-left: 50px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .titre_activites {
+                                                                                                                                                                                                                    margin-left: 12px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .sizeNav {
+                                                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                                                    bottom: 50%;
+                                                                                                                                                                                                                    right: -15%;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .hebergementancre {
+                                                                                                                                                                                                                    margin-left: 35px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activite1, .activite2, .activite3, .activite4, .activite5, .activite6 {
+                                                                                                                                                                                                                    margin-left: -10px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activites {
+                                                                                                                                                                                                                    padding-left: 0px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .box_populaire_carte {
+                                                                                                                                                                                                                    max-width: 260px;
+                                                                                                                                                                                                                    padding-right: 20px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #container_hebergements_populaires {
+                                                                                                                                                                                                                    padding-right: 0px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .box_carte {
+                                                                                                                                                                                                                    max-width: 300px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .photo_hebergement {
+                                                                                                                                                                                                                    width: 265px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #hebergements_a_marseille {
+                                                                                                                                                                                                                    padding-right: 11px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .photo_activite11, .photo_activite22, .photo_activite33, .photo_activite44, .photo_activite55, .photo_activite66 {
+                                                                                                                                                                                                                    width: 260px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .activite1, .activite2, .activite3, .activite4, .activite5, .activite6 {
+                                                                                                                                                                                                                    max-width: 270px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #Activités_à_Marseille {
+                                                                                                                                                                                                                    margin-left: 30px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .titre_activites {
+                                                                                                                                                                                                                    margin-left: 20px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                footer {
+                                                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                            @media all and (max-width: 320px) {
+                                                                                                                                                                                                                footer {
+                                                                                                                                                                                                                    max-width: 320px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #container_hebergements_populaires {
+                                                                                                                                                                                                                    max-width: 320px;
+                                                                                                                                                                                                                    padding-left: 18px;
+                                                                                                                                                                                                                    padding-right: 10px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #hebergements_a_marseille {
+                                                                                                                                                                                                                    padding-left: 8px;
+                                                                                                                                                                                                                    padding-right: 5px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #Activités_à_Marseille {
+                                                                                                                                                                                                                    margin-left: 40px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .titre_activites {
+                                                                                                                                                                                                                    margin-left: 0px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .texteGras .texteh2, #search-section .bordureSearch .flexCentre {
+                                                                                                                                                                                                                    margin-left: -10px;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .box_populaire_carte {
+                                                                                                                                                                                                                    padding-right: 10px;
+                                                                                                                                                                                                                }
+
+
+                                                                                                                                                                                                                                              
+
+
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                    
