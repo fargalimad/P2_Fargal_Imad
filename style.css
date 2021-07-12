@@ -1,11 +1,11 @@
 
-.titre_blocpopulaires{
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+                                                                                                                                                                                          .titre_blocpopulaires{
+                                                                                                                                                                                            display:flex;
+                                                                                                                                                                                             align-items: center;
+                                                                                                                                                                                              justify-content: space-evenly;
+                                                                                                                                                                                      }
 
-.lienMenu {
+                                                                                                                                                                                                       .lienMenu {
                                                                                                                                                                                                         text-decoration: none;
                                                                                                                                                                                                         /*color:green;*/
                                                                                                                                                                                                     }
@@ -80,15 +80,21 @@
 
                                                                                                                                                                                                     .sizeNav {
                                                                                                                                                                                                         height: 100px;
+                                                                                                                                                                                                       
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .sizeLiens {
                                                                                                                                                                                                         width: 45%;
+                                                                                                                                                                                                        
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .sizeLien {
                                                                                                                                                                                                         width: 140px;
                                                                                                                                                                                                         height: 99px;
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .colorLien13 {
@@ -133,6 +139,10 @@
                                                                                                                                                                                                         font-weight: bold;
                                                                                                                                                                                                     }
 
+                                                                                                                                                                                                    .rechercher_icone{
+                                                                                                                                                                                                        display: none;
+                                                                                                                                                                                                    }
+
                                                                                                                                                                                                     .iconSize {
                                                                                                                                                                                                         height: 50px;
                                                                                                                                                                                                         width: 50px;
@@ -142,7 +152,7 @@
 
                                                                                                                                                                                                     .buttonSearch {
                                                                                                                                                                                                         height: 50px;
-                                                                                                                                                                                                        width: 170px;
+                                                                                                                                                                                                        width: 150px;
                                                                                                                                                                                                         color: white;
                                                                                                                                                                                                         cursor: pointer;
                                                                                                                                                                                                         border-radius: 0 10px 10px 0;
@@ -151,12 +161,13 @@
                                                                                                                                                                                                     /*filters*/
 
                                                                                                                                                                                                     .margFiltre {
-                                                                                                                                                                                                        margin-top: 50px;
-                                                                                                                                                                                                        margin-bottom: 40px;
+                                                                                                                                                                                                        margin-top: 10px;
+                                                                                                                                                                                                        margin-bottom: 10px;
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .filtre {
                                                                                                                                                                                                         display: flex;
+                                                                                                                                                                                                        flex-wrap: wrap;
                                                                                                                                                                                                         align-items: center;
                                                                                                                                                                                                         margin-left: 50px;
                                                                                                                                                                                                     }
@@ -218,6 +229,11 @@
                                                                                                                                                                                                         border-radius: 25px;
                                                                                                                                                                                                         margin-right: 5px;
                                                                                                                                                                                                     }
+                                                                                                                                                                                                    
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+
+                                                                                                                                                                                                    
 
                                                                                                                                                                                                     /*hebargement*/
 
@@ -336,7 +352,8 @@
                                                                                                                                                                                                         border-radius: 20px;
                                                                                                                                                                                                         padding: 45px 38px 31px 45px;
                                                                                                                                                                                                         max-width: 345px;
-                                                                                                                                                                                                        margin-right: 40;
+                                                                                                                                                                                                        margin-right: 70px;
+                                                                                                                                                                                                        
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .hebergement_les_plus_populaires {
@@ -344,7 +361,10 @@
                                                                                                                                                                                                         flex-direction: column;
                                                                                                                                                                                                         justify-content: flex-start;
                                                                                                                                                                                                     }
-
+                                                                                                                                                                                                    p.hebergement_prix {
+                                                                                                                                                                                                        margin-bottom: 0px;
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    
                                                                                                                                                                                                     .box_populaire_carte {
                                                                                                                                                                                                         border: 3px solid white;
                                                                                                                                                                                                         border-radius: 30px;
@@ -363,6 +383,11 @@
                                                                                                                                                                                                         border-top-left-radius: 10px;
                                                                                                                                                                                                         border-bottom-left-radius: 10px;
                                                                                                                                                                                                     }
+                                                                                                                                                                                                    
+                                                                                                                                                                                                        
+                                                                                                                                                                                                    
+
+                                                                                                                                                                                                    
 
                                                                                                                                                                                                     .hebergement_populaire_contenu {
                                                                                                                                                                                                         padding-left: 7px;
@@ -373,6 +398,10 @@
 
                                                                                                                                                                                                     .titre_populaire_contenu {
                                                                                                                                                                                                         padding-bottom: 8px;
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    .etoil{padding-bottom: 0px;}
+                                                                                                                                                                                                    .etoillle{
+                                                                                                                                                                                                        padding-top: 100px;
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .prix_populaire_contenu {
@@ -443,46 +472,71 @@
 
                                                                                                                                                                                                     /*Footer*/
 
-                                                                                                                                                                                                    footer {
-                                                                                                                                                                                                        max-width:1350px;
-                                                                                                                                                                                                        padding: 70px 10px 10px 100PX;
+                                                                                                                                                                                                    
+                                                                                                                                                                                                       
+
+
+                                                                                                                                                                                                        
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        footer{
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        max-width:9000px;
+                                                                                                                                                                                                        padding: 10px 5px 5px 30px;
                                                                                                                                                                                                         background-color: #F2F2F2;
                                                                                                                                                                                                         display: flex;
+                                                                                                                                                                                                        
                                                                                                                                                                                                         flex-wrap: wrap;
-                                                                                                                                                                                                        justify-content: space-between;
+                                                                                                                                                                                                        justify-content: space-evenly;
                                                                                                                                                                                                         flex-direction: row;
-                                                                                                                                                                                                        align-items: center;
-                                                                                                                                                                                                        margin-right: 0.0px;
-                                                                                                                                                                                                        margin-left: 0.5px;
+                                                                                                                                                                                                       
+                                                                                                                                                                                                     }
+
                                                                                                                                                                                                         
-                                                                                                                                                                                                        
-                                                                                                                                                                                                    }
+                                                                                                                                                                                                    
+                                                                                                                                                                                                    
+                                                                                                                                                                                                    
+                                                                                                                                                                                                    
 
                                                                                                                                                                                                     .titre_apropos {
-                                                                                                                                                                                                        padding-bottom: 22px;
+                                                                                                                                                                                                        margin-bottom: 22px;
+                                                                                                                                                                                                        margin-right: 150px;
+                                                                                                                                                                                                        
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .a_propos {
                                                                                                                                                                                                         display: flex;
                                                                                                                                                                                                         flex-direction: column;
+                                                                                                                                                                                                        margin-right: 150px;
+                                                                                                                                                                                                        
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .titre_noshebergements {
                                                                                                                                                                                                         margin-bottom: 22px;
+                                                                                                                                                                                                        margin-right: 120px;
+                                                                                                                                                                                                       
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .nos_hebergements {
                                                                                                                                                                                                         display: flex;
                                                                                                                                                                                                         flex-direction: column;
+                                                                                                                                                                                                        margin-right: 120px;
+                                                                                                                                                                                                        
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .titre_assistance {
                                                                                                                                                                                                         padding-bottom: 22px;
+                                                                                                                                                                                                        margin-right: 150px;
+                                                                                                                                                                                                       
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     .assistance {
                                                                                                                                                                                                         display: flex;
                                                                                                                                                                                                         flex-direction: column;
+                                                                                                                                                                                                        margin-right: 150px;
+                                                                                                                                                                                                        
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     footer h4 {
@@ -528,16 +582,33 @@
                                                                                                                                                                                                             
                                                                                                                                                                                                             
                                                                                                                                                                                                         }
+                                                                                                                                                                                                        .navig
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                            margin-top: 50px
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                          .   
+                                                                                                                                                                                                          margFiltre{
+                                                                                                                                                                                                                 width: 100%;
+                                                                                                                                                                                                                 margin-bottom: 5px; }
+
+                                                                                                                                                                                                        }
                                                                                                                                                                                                     }
                                                                                                                                                                                                     .info
-                                                                                                                                                                                                    {Margin-right:55px}
+                                                                                                                                                                                                    {Margin-right:30px}
                                                                                                                                                                                                     .texteGras {
-                                                                                                                                                                                                        margin-right:55px ;
+                                                                                                                                                                                                        margin-right:30px ;
                                                                                                                                                                                                     }
 
                                                                                                                                                                                                     @media all and (max-width: 1300px) {
                                                                                                                                                                                                         #hebergements_a_marseille {
-                                                                                                                                                                                                            margin-bottom: 50px;
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            margin-left: 30px;
                                                                                                                                                                                                         }
                                                                                                                                                                                                         .hebergement_les_plus_populaires {
                                                                                                                                                                                                             flex-direction: row;
@@ -556,7 +627,7 @@
                                                                                                                                                                                                             height: 391px;
                                                                                                                                                                                                         }
                                                                                                                                                                                                         #Activités_à_Marseille  {
-                                                                                                                                                                                                            margin-left: 45px;
+                                                                                                                                                                                                            margin-right: 100px;
                                                                                                                                                                                                         }
                                                                                                                                                                                                     }
 
@@ -586,7 +657,7 @@
                                                                                                                                                                                                             .nos_hebergements {
                                                                                                                                                                                                                 margin-bottom: 20px;
                                                                                                                                                                                                             }
-                                                                                                                                                                                                            @media all and (max-width: 768px) {
+                                                                                                                                                                                                            @media c (max-width: 768px) {
                                                                                                                                                                                                                 .flexBetween .filtreTexteIcons {
                                                                                                                                                                                                                     margin-bottom: 5px;
                                                                                                                                                                                                                 }
@@ -609,6 +680,7 @@
                                                                                                                                                                                                                 }
                                                                                                                                                                                                                 .box_populaire_carte {
                                                                                                                                                                                                                     max-width: 270px;
+                                                                                                                                                                                                                    
                                                                                                                                                                                                                 }
                                                                                                                                                                                                                 .box_carte, .activite1, .activite2, .activite3, .activite4, .activite5, .activite6 {
                                                                                                                                                                                                                     box-shadow: 0 0 20px #0000002e;
@@ -628,9 +700,9 @@
                                                                                                                                                                                                                 #container_hebergements_populaires {
                                                                                                                                                                                                                     border-radius: 0px;
                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                .flexBetween .filtreTexteIcons {
-                                                                                                                                                                                                                    margin-bottom: 5px;
-                                                                                                                                                                                                                }
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                                
                                                                                                                                                                                                                 .flexBetween .filtreTexteIcons {
                                                                                                                                                                                                                     flex-direction: column;
                                                                                                                                                                                                                 }
@@ -639,8 +711,8 @@
                                                                                                                                                                                                                     margin: 0px 0px 20px 30px;
                                                                                                                                                                                                                 }
                                                                                                                                                                                                                 #container_hebergements_populaires {
-                                                                                                                                                                                                                    margin-bottom: 20px;
-                                                                                                                                                                                                                    padding-left: 44px;
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                                    margin-left: 70px;
                                                                                                                                                                                                                 }
                                                                                                                                                                                                                 .box_carte {
                                                                                                                                                                                                                     max-width: 354px;
@@ -759,9 +831,10 @@
                                                                                                                                                                                                                 .activites {
                                                                                                                                                                                                                     padding-left: 0px;
                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                .box_populaire_carte {
-                                                                                                                                                                                                                    max-width: 260px;
+                                                                                                                                                                                                                .box_populaire_carte { max-width: 260px;
                                                                                                                                                                                                                     padding-right: 20px;
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                    
                                                                                                                                                                                                                 }
                                                                                                                                                                                                                 #container_hebergements_populaires {
                                                                                                                                                                                                                     padding-right: 0px;
@@ -791,10 +864,14 @@
                                                                                                                                                                                                                     flex-direction: column;
                                                                                                                                                                                                                 }
                                                                                                                                                                                                             }
-                                                                                                                                                                                                            @media all and (max-width: 320px) {
+                                                                                                                                                                                                            @media all and (max-width: 600px) {
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
                                                                                                                                                                                                                 footer {
-                                                                                                                                                                                                                    max-width: 320px;
-                                                                                                                                                                                                                }
+                                                                                                                                                                                                                    height: 100%;
+                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                 #container_hebergements_populaires {
                                                                                                                                                                                                                     max-width: 320px;
                                                                                                                                                                                                                     padding-left: 18px;
@@ -817,10 +894,32 @@
                                                                                                                                                                                                                     padding-right: 10px;
                                                                                                                                                                                                                 }
 
+                                                                                                                                                                                                                .rechercher_icone{
+                                                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                .rechercher_texte{
+                                                                                                                                                                                                                    display: none;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                #sizeLiens div:nth-child(3) {
+  
+
+ 
+                                                                                                                                                                                                            } 
+                                                                                                                                                                                                             
+                                                                                                                                                                                                                
+                                                                                                                                                                                                
+
+                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                                                                                                                                                                                                            
+
+
 
                                                                                                                                                                                                                                               
 
 
                                                                                                                                                                                                                 
                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                
